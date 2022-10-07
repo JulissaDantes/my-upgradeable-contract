@@ -13,3 +13,6 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+To migrate:
+`npx hardhat run scripts/upgrade.js --network sepolia`
