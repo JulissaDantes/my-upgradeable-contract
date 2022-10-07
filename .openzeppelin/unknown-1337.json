@@ -1,0 +1,161 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x3Ec9745c7Bc93024e4EA3BaC26B89172D92C4c26",
+    "txHash": "0xd0cfbb1d155efaa0f70a9539f09be135d7409d231f825ee04f3df727c22d2687"
+  },
+  "proxies": [
+    {
+      "address": "0x359EE3fF493898f217d7BBE99C6bFb72627EC569",
+      "txHash": "0xcf7aceb824f83065ebf3091c03a216351474fb5886a865951b029de90393757e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x7ED94852da731A53547305B100b6F2bE5a3766ab",
+      "txHash": "0xf352d070309b5bc85624a5b66750f308f526893c2eeafe05684ebc044b2d7dff",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "803584f8f536a55d77fe700759750019ca2cfa82f335a463d3e1452f3513fb79": {
+      "address": "0x3Ad438090D6CA3c26f2e4C4c2E7833066B87e709",
+      "txHash": "0xeef06dd1699ec3e8a77daa1cd5585e5c0dfc255f7d55198b183ba3488894b714",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "x",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "ImplementationV1",
+            "src": "contracts/ImplementationV1.sol:9"
+          },
+          {
+            "label": "y",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "ImplementationV1",
+            "src": "contracts/ImplementationV1.sol:10"
+          }
+        ],
+        "types": {
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "5e038a994cd13edd721ad331671135ae0da118a3531afff52a17906cb997abf1": {
+      "address": "0xCe4A2940Be7f55041dEBF2473283b141c0872731",
+      "txHash": "0xdc8f5466800d4595cc913fb7afa9711fb64a627670014cdee2bdf3266fdd3c55",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "x",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "ImplementationV3",
+            "src": "contracts/ImplementationV3.sol:9"
+          },
+          {
+            "label": "y",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "ImplementationV3",
+            "src": "contracts/ImplementationV3.sol:10"
+          },
+          {
+            "label": "juli",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_struct(Juli)398_storage",
+            "contract": "ImplementationV3",
+            "src": "contracts/ImplementationV3.sol:17"
+          }
+        ],
+        "types": {
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Juli)398_storage": {
+            "label": "struct ImplementationV3.Juli",
+            "members": [
+              {
+                "label": "status",
+                "type": "t_uint8",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "mood",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}

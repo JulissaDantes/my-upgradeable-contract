@@ -6,9 +6,9 @@ require("dotenv").config();
 module.exports = {
   solidity: "0.8.4",
   networks: {
-    rinkeby: {
-      url: process.env.RINKEBY_URL,
-      accounts: [process.env.RINKEBY_PRIVATE_KEY]
+    ganache: {
+      url: "http://127.0.0.1:8545",
+      accounts: ["0x5b3208286264f409e1873e3709d3138acf47f6cc733e74a6b47a040b50472fd8", "0xae6e55ee301653982277f9031e97e7a54ee258fd617214904baf62df3047e09b"]
     }
   },
   etherscan: {

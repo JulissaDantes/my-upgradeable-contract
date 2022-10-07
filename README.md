@@ -13,3 +13,10 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+To deploy proxy:
+`npx hardhat run scripts/deployProxy.js --network ganache`
+To migrate:
+1. Use the deployed proxy address inside the upgrade script.
+2. Run: 
+    `npx hardhat run scripts/upgrade.js --network ganache`

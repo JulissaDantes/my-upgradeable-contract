@@ -1,11 +1,11 @@
 const { ethers, upgrades } = require("hardhat");
 
 
-const proxyAddress = "0x5DC1460373F0341963a01393bf0c475fC99d8209";
+const proxyAddress = "0x7ED94852da731A53547305B100b6F2bE5a3766ab";
 
 async function main() {
-  const ImplementationV2 = await ethers.getContractFactory("ImplementationV2");
-  const upgraded = await upgrades.upgradeProxy(proxyAddress, ImplementationV2);
+  const NewImplementation = await ethers.getContractFactory("ImplementationV4");
+  const upgraded = await upgrades.upgradeProxy(proxyAddress, NewImplementation);
   console.log((await upgraded.mult()).toString());
   console.log((await upgraded.newFunction()).toString());
 }

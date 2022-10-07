@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ganache": "ganache --wallet.seed myCustomSeed"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +21,7 @@
     "@nomiclabs/hardhat-etherscan": "^3.0.1",
     "@openzeppelin/contracts-upgradeable": "^4.6.0",
     "@openzeppelin/hardhat-upgrades": "^1.19.0",
-    "dotenv": "^16.0.1"
+    "dotenv": "^16.0.1",
+    "ganache": "^7.4.4"
   }
 }
