@@ -15,8 +15,24 @@ contract ImplementationV4 is Initializable {
     string mood;
   }
 
-  Juli public juli;
+  struct MyStruct {
+        uint16 val1;
+        uint16 val2;
+        uint64 val3;
+        uint160 val4;
+        string name;
+  }
 
+  Juli public juli;
+  MyStruct public mystruct;
+
+  struct SafeBox {
+        bool done;
+        function(uint, bytes12) internal callback;
+        bytes12 hash;
+        uint value;
+  }
+  SafeBox box;
   function initialize(uint _x, uint _y) public initializer {
     juli = Juli(0, 2, "fun");
     x = _x;

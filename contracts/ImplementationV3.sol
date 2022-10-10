@@ -14,8 +14,16 @@ contract ImplementationV3 is Initializable {
     string mood;
   }
 
-  Juli public juli;
+  struct MyStruct {
+        uint16 val1;
+        uint16 val2;
+        uint64 val3;
+        // Technically there is a 160bits gap here
+        string name;
+  }
 
+  Juli public juli;
+  MyStruct public mystruct;
   function initialize(uint _x, uint _y) public initializer {
     juli = Juli(0, "fun");
     x = _x;
