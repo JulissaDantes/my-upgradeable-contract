@@ -2,10 +2,13 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.9;
  
-contract TBox {
+contract TBox2 {
     uint256 private value;
     type MyUserValueType is uint128;
     MyUserValueType my_user_value;
+
+    uint x;
+    
     // Emitted when the stored value changes
     event ValueChanged(uint256 newValue);
 

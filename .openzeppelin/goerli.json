@@ -1,0 +1,59 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xf3Cfe4Aa81597a74E40Fb8c8535df88B0DA557Db",
+    "txHash": "0x4711c016d85a6975dc6814484646f51a3fb1cf1bd6af4d500837670b099c7714"
+  },
+  "proxies": [
+    {
+      "address": "0x64FA2Aa108e8A8c7F8271b1711c3f24DC9065BC5",
+      "txHash": "0x84a1207f8a40af15960844e5c48033a958e7b027836ce0d50ac737165e5ebb40",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x49bc01e999054c1B7192818426c1c13e673770AF",
+      "txHash": "0xec4bcba5d0d668e237c557e035830dc9761617c1e1e06782dfc7d2c0a25763e6",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x3ac3575Af01910c7A4a4327e382B16914Bd97DAa",
+      "txHash": "0x29b14b65bd233697df7bfd6a9f00482c0a38b92f37a7f957b897aa4b1bf274d9",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "5ff315e6d6c77f2f3cde71ee32ddb23c3a919a9fa8be0a9f9dd1d8c17319b051": {
+      "address": "0x9383A4B04c9fC220Bb752EBCfc13ddBb8Ef6AdBd",
+      "txHash": "0x21198d0996d24477f6a3a8a5495097eb37d7a36318aa953a412f216700df98ab",
+      "layout": {
+        "solcVersion": "0.8.9",
+        "storage": [
+          {
+            "contract": "TBox",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "../project:/contracts/TBox.sol:6"
+          },
+          {
+            "contract": "TBox",
+            "label": "my_user_value",
+            "type": "t_userDefinedValueType(MyUserValueType)695",
+            "src": "../project:/contracts/TBox.sol:8"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_userDefinedValueType(MyUserValueType)695": {
+            "label": "TBox.MyUserValueType",
+            "underlying": "t_uint128"
+          },
+          "t_uint128": {
+            "label": "uint128"
+          }
+        }
+      }
+    }
+  }
+}

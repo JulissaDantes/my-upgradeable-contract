@@ -1,0 +1,75 @@
+{
+  "contractName": "Proxy",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.9+commit.e5eed63a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/unsafeProxy.sol\":\"Proxy\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/unsafeProxy.sol\":{\"keccak256\":\"0x171ac656658f8dbfd3bce0576b269ea2e03ed060ad2a1491739a101c2c8cc5d8\",\"license\":\"Unlicense\",\"urls\":[\"bzz-raw://07e65ac10131a685b1bae951c242402d7460d25a792c79d69b7d7cbba312c502\",\"dweb:/ipfs/QmUARPG2uDFHQKaubHZy26Te87j7VPsKPQgfFFMU4EBeJj\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122020a02a7db25083525aede45827c353f45abee790287f3b60242ac55bbe68ff6a64736f6c63430008090033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122020a02a7db25083525aede45827c353f45abee790287f3b60242ac55bbe68ff6a64736f6c63430008090033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "63:23:7:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "63:23:7:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: Unlicense\npragma solidity ^0.8.0;\n\ncontract Proxy {\n    \n}",
+  "sourcePath": "/Users/julissadantes-castillo/Documents/my-upgradeable-contract/contracts/unsafeProxy.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/unsafeProxy.sol",
+    "exportedSymbols": {
+      "Proxy": [
+        739
+      ]
+    },
+    "id": 740,
+    "license": "Unlicense",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 738,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "38:23:7"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Proxy",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 739,
+        "linearizedBaseContracts": [
+          739
+        ],
+        "name": "Proxy",
+        "nameLocation": "72:5:7",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 740,
+        "src": "63:23:7",
+        "usedErrors": []
+      }
+    ],
+    "src": "38:48:7"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.9+commit.e5eed63a.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.10",
+  "updatedAt": "2022-10-27T19:55:38.515Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
