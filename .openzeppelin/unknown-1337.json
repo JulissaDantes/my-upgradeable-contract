@@ -1,8 +1,8 @@
 {
   "manifestVersion": "3.2",
   "admin": {
-    "address": "0x3Ec9745c7Bc93024e4EA3BaC26B89172D92C4c26",
-    "txHash": "0xd0cfbb1d155efaa0f70a9539f09be135d7409d231f825ee04f3df727c22d2687"
+    "address": "0xF12b5dd4EAD5F743C6BaA640B0216200e89B60Da",
+    "txHash": "0x7ff51cd3b32738883a84a0468f19bcf808d5b4d746cda649778f5581607eb7d6"
   },
   "proxies": [
     {
@@ -13,6 +13,11 @@
     {
       "address": "0x7ED94852da731A53547305B100b6F2bE5a3766ab",
       "txHash": "0xf352d070309b5bc85624a5b66750f308f526893c2eeafe05684ebc044b2d7dff",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x345cA3e014Aaf5dcA488057592ee47305D9B3e10",
+      "txHash": "0xb08dd262ca0a96c487033275ce03a0635b3538601ad538f222eec7364729dec8",
       "kind": "transparent"
     }
   ],
@@ -153,6 +158,26 @@
           "t_uint8": {
             "label": "uint8",
             "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "925ac28bbf9839bef9f86ec5b41ec3785d913ce448340c01b8751ecba4a82e6f": {
+      "address": "0x8CdaF0CD259887258Bc13a92C0a6dA92698644C0",
+      "txHash": "0xa757302fbe578a5bc2326e20bb68205912f581e7ec709f29fdded721777a4fa3",
+      "layout": {
+        "solcVersion": "0.8.4",
+        "storage": [
+          {
+            "contract": "TBox",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "../project:/contracts/TBox.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
           }
         }
       }
