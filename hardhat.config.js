@@ -12,7 +12,7 @@ internalTask(TASK_COMPILE_SOLIDITY_GET_COMPILER_INPUT, async (args, hre, runSupe
 });
 
 module.exports = {
-  solidity: "0.8.4",
+  solidity: "0.8.9",
   networks: {
     ganache: {
       url: "http://127.0.0.1:8545",
